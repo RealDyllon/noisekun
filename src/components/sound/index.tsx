@@ -145,7 +145,10 @@ export const SoundButton: React.FC<SoundButtonProps> = ({ sound }) => {
     >
       <audio
         ref={soundRef}
-        onCanPlay={() => setSoundState({ ...localSoundState, loaded: true })}
+        onWaiting={() => setSoundState({ ...localSoundState, loaded: false })}
+        onCanPlayThrough={() =>
+          setSoundState({ ...localSoundState, loaded: true })
+        }
         preload="auto"
         loop
       >
@@ -156,8 +159,8 @@ export const SoundButton: React.FC<SoundButtonProps> = ({ sound }) => {
         data-active={
           localSoundState.active && localSoundState.loaded && userHasInteracted
         }
-        // data-loaded={localSoundState.loaded}
-        data-loaded={true}
+        data-loaded={localSoundState.loaded}
+        // data-loaded={true}
         className="flex h-24 w-24 cursor-wait items-center justify-center rounded-xl text-primary-foreground/90 opacity-70 transition duration-300 disabled:hover:bg-transparent data-[loaded='false']:animate-loading data-[loaded='true']:cursor-pointer data-[active='true']:rounded-b-none data-[active='true']:opacity-100 md:hover:bg-primary-foreground/10 data-[active='true']:md:bg-primary-foreground/10 data-[active='true']:md:shadow-sound data-[loaded='true']:md:hover:opacity-100 data-[loaded='true']:md:hover:shadow-sound"
         onClick={() =>
           setSoundState({ ...localSoundState, active: !localSoundState.active })

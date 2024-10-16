@@ -30,8 +30,8 @@ export const sounds = [
     title: 'Rain',
     icon: Rain,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/rain.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/rain.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -39,8 +39,8 @@ export const sounds = [
     title: 'Storm',
     icon: Storm,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/storm.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/storm.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -48,8 +48,8 @@ export const sounds = [
     title: 'Drops',
     icon: Drops,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/drops.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/drops.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -57,8 +57,8 @@ export const sounds = [
     title: 'Wind',
     icon: Wind,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/wind.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/wind.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -66,8 +66,8 @@ export const sounds = [
     title: 'Waves',
     icon: Waves,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/waves.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/waves.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -75,8 +75,8 @@ export const sounds = [
     title: 'Underwater',
     icon: Underwater,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/underwater.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/underwater.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -84,8 +84,8 @@ export const sounds = [
     title: 'Stream Water',
     icon: StreamWater,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/stream-water.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/stream-water.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -93,8 +93,8 @@ export const sounds = [
     title: 'Waterfall',
     icon: Waterfall,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/waterfall.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/waterfall.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -102,8 +102,8 @@ export const sounds = [
     title: 'Birds on Tree',
     icon: BirdsTree,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/birds-tree.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/birds-tree.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -111,8 +111,8 @@ export const sounds = [
     title: 'Leaves',
     icon: Leaves,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/leaves.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/leaves.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -120,8 +120,8 @@ export const sounds = [
     title: 'Bonfire',
     icon: Fire,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/fire.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/fire.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -129,8 +129,8 @@ export const sounds = [
     title: 'Cave Sounds',
     icon: Cave,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/cave-drops.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/cave-drops.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -138,8 +138,8 @@ export const sounds = [
     title: 'Night',
     icon: Night,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/night.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/night.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -147,8 +147,8 @@ export const sounds = [
     title: 'Coffee shop',
     icon: Coffee,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/coffee.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/coffee.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -156,8 +156,8 @@ export const sounds = [
     title: 'Train',
     icon: Train,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/train.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/train.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -165,8 +165,8 @@ export const sounds = [
     title: 'Airplane',
     icon: AirPlane,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/air-plane.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/air-plane.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -174,8 +174,8 @@ export const sounds = [
     title: 'Washing machine',
     icon: WashingMachine,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/washing-machine.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/washing-machine.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -183,8 +183,8 @@ export const sounds = [
     title: 'Playground',
     icon: Playground,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/playground.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/playground.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -192,8 +192,8 @@ export const sounds = [
     title: 'Boat',
     icon: Boat,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/boat.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/boat.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -201,8 +201,8 @@ export const sounds = [
     title: 'Rain on Tent',
     icon: RainOnTent,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/rain-on-tent.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/rain-on-tent.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -210,8 +210,8 @@ export const sounds = [
     title: 'Brown Noise',
     icon: BrownNoise,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/brown-noise.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/brown-noise.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -219,8 +219,8 @@ export const sounds = [
     title: 'White Noise',
     icon: WhiteNoise,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/white-noise.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/white-noise.m4a',
+      type: 'audio/mp4'
     }
   },
   {
@@ -228,8 +228,8 @@ export const sounds = [
     title: 'Pink Noise',
     icon: PinkNoise,
     file: {
-      url: 'https://cdn.noisekun.com/sounds/pink-noise.ogg',
-      type: 'audio/ogg'
+      url: 'https://noise.dyllon.io/sounds/pink-noise.m4a',
+      type: 'audio/mp4'
     }
   }
 ]
