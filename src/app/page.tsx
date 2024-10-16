@@ -32,7 +32,7 @@ export default function Home() {
       <div className="bg-background-image bg-cover bg-fixed bg-center bg-no-repeat">
         <div className="relative bg-background-color">
           <Header />
-          <div className="styled-scrollbar h-[90vh] space-y-24 overflow-y-scroll pt-16 md:h-[87vh]">
+          <div className="styled-scrollbar h-[90vh] space-y-24 overflow-y-scroll pt-16 md:h-[calc(100vh-80px)]">
             <div className="m-auto flex w-fit flex-col items-center gap-3">
               <ActionButtons />
               <div className="grid h-fit w-fit grid-cols-1 gap-12 xs:grid-cols-2 2xs:grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6">
