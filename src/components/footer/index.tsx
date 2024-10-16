@@ -1,14 +1,14 @@
-import React, {ComponentProps} from 'react'
+import React, { ComponentProps } from 'react'
 import Link from 'next/link'
-import {tv} from 'tailwind-variants'
-import {FiAward, FiGithub} from 'react-icons/fi'
-import {AiOutlineCopyrightCircle} from 'react-icons/ai'
+import { tv } from 'tailwind-variants'
+import { FiAward, FiGithub } from 'react-icons/fi'
+import { AiOutlineCopyrightCircle } from 'react-icons/ai'
 
 import packageJson from '../../../package.json'
-import {Logo} from './logo'
+import { Logo } from './logo'
 
 export function Footer() {
-  const Info = ({children, className, ...props}: ComponentProps<'a'>) => {
+  const Info = ({ children, className, ...props }: ComponentProps<'a'>) => {
     const style = tv({
       base: /*tw:*/ 'flex items-center gap-2 text-xl sm:text-lg underline-offset-4 hover:underline'
     })
@@ -56,14 +56,14 @@ export function Footer() {
           href="https://github.com/RealDyllon/noisekun"
           data-umami-event="Repository Link"
         >
-          <FiGithub/> Source
+          <FiGithub /> Source
         </Info>
 
         <Info
           href="https://github.com/RealDyllon/noisekun/?tab=readme-ov-file#%EF%B8%8F-credits"
           data-umami-event="Credits Link"
         >
-          <FiAward/> Credits
+          <FiAward /> Credits
         </Info>
       </section>
     </footer>
